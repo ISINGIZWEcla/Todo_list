@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jovanovic.stefan.Todolist">
+    package="com.example.Todolist">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.jovanovic.stefan.Todolist.UpdateActivity"
-            android:parentActivityName="com.jovanovic.stefan.Todolist.MainActivity"/>
+        <activity android:name="com.example.Todolist.UpdateActivity"
+            android:parentActivityName="com.example.Todolist.MainActivity"/>
         <activity
-            android:name="com.jovanovic.stefan.Todolist.AddActivity"
+            android:name="com.example.Todolist.AddActivity"
             android:label="Add Activity"
-            android:parentActivityName="com.jovanovic.stefan.Todolist.MainActivity" />
+            android:parentActivityName="com.example.Todolist.MainActivity" />
         <activity
-            android:name="com.jovanovic.stefan.Todolist.MainActivity"
+            android:name="com.example.Todolist.MainActivity"
             android:label="Todo List">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
